@@ -41,7 +41,7 @@ Feel free to contribute to this project by following the guidelines below:
 ## Questions
 If you have any questions, you can reach me through the following:
 - GitHub: [DRX-88](https://github.com/DRX-88)
-- Email: [nrm@gmail.com](mailto:n@mail.com)
+- Email: [nrmj02@gmail.com](mailto:nrmj02@gmail.com)
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
