@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// If there is none, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "No license") {
+  if (license === "none") {
   } else if (license === "MIT") {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   } else if (license === "Apache 2.0") {
@@ -16,9 +16,9 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// If there is none, return an empty string
 function renderLicenseLink(license) {
-  if (license === "No license") {
+  if (license === "none") {
   } else if (license === "MIT") {
     return `[MIT License](https://opensource.org/licenses/MIT)`
   } else if (license === "Apache 2.0") {
@@ -33,12 +33,12 @@ function renderLicenseLink(license) {
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// If there is none, return an empty string
 const year = new Date().getFullYear();
 
 
 function renderLicenseSection(license) {
-  if (license === "No license") {
+  if (license === "none") {
   } else if (license === "MIT") {
     return `This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
     
@@ -87,6 +87,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -103,23 +104,35 @@ ${data.welcome}
 - [License](#license)
 
 ## Description
+
 ${data.description}
 
 ## Installation
 Please run the following command to install the required dependencies:
-${data.installation}
+
+    $ ${data.installation}
 
 ## Usage
 Please run the following command to run the application:
-${data.usage}
+
+    $ ${data.usage}
 
 ## Tests
 Please run the following command to run the tests:
-${data.tests}
+
+    $ ${data.tests}
 
 ## Contributing
 Feel free to contribute to this project by following the guidelines below:
-${data.contributing}
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add new feature).
+5. Push to the branch (git push origin feature-branch).
+6. Open a Pull Request.
+
+
 
 ## Questions
 If you have any questions, you can reach me through the following:
