@@ -38,7 +38,6 @@ Feel free to contribute to this project by following the guidelines below:
 6. Open a Pull Request.
 
 ## Links
--
 - [Video Tutorial](https://drive.google.com/file/d/1INwO5DgJq0a04_Sw2A--Cw2CURz_Nj0d/view?usp=drive_link)
 - [Github Repo Link](https://github.com/DRX-88/README-pro) 
 
